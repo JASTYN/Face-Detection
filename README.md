@@ -53,4 +53,13 @@ We use these values to draw a rectangle using the built-in rectangle() function.
 
 cv2.imshow("Faces found", image)
 cv2.waitKey(0)
-In th
+# It displays the number of faces.
+[INFO] Image newliveimage.jpg  written to filesystem:  True
+[INFO] Found 12 people!
+
+# Displays image again with the faces detaected.
+cv2.imshow("Deteced-face",resized)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+End of program.
